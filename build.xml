@@ -112,9 +112,9 @@
 			    <batchtest  todir="${test.reportsDir}" fork="true">  
 			    <fileset dir="${test.dest}">  
 			       
-			        <include name="testSuite1/firstSuiteRunner.class" />
-			        <!--include name="tests/suite1/FirstSuiteRunner.class" />
-			        <include name="tests/suite1/FirstSuiteRunner.class" /-->
+			        <include name="com/cyclos/testSuite1/firstSuiteRunner.class" />
+			    	<include name="com/cyclos/testSuite2/SecondSuiteRunner.class" />
+			      
 
 			         
 			    </fileset>  

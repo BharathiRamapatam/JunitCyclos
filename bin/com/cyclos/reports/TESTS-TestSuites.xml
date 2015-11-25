@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Family-PC" id="0" name="firstSuiteRunner" package="com.cyclos.testSuite1" skipped="2" tests="7" time="93.853" timestamp="2015-11-25T11:18:48">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="FAMILY-PC" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="test.reportsDir" value="C:\Users\bharathi.ramapatnam\Documents\rep" />
+
+          <property name="os.name" value="Windows 8.1" />
+
+          <property name="env.FP_NO_HOST_CHECK" value="NO" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes" />
+
+          <property name="ws.home" value="C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject" />
+
+          <property name="env.COMPUTERNAME" value="FAMILY-PC" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6" />
+
+          <property name="java.runtime.version" value="1.8.0_60-b27" />
+
+          <property name="env.HOMEPATH" value="\Users\bharathi.ramapatnam" />
+
+          <property name="user.name" value="bharathi.ramapatnam" />
+
+          <property name="ant.file.type.Module_Junit_Ant" value="file" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin" />
+
+          <property name="ant.project.default-target" value="usage" />
+
+          <property name="ant.project.name" value="Module_Junit_Ant" />
+
+          <property name="java.version" value="1.8.0_60" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="env.TEMP" value="C:\Users\BHARAT~1.RAM\AppData\Local\Temp" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed" />
+
+          <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.8.0_60\bin\java.exe" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="env.VS110COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="GB" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_60\jre" />
+
+          <property name="env.PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\" />
+
+          <property name="env.APPDATA" value="C:\Users\bharathi.ramapatnam\AppData\Roaming" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="ant.file" value="C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject\build.xml" />
+
+          <property name="os.version" value="6.3" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="env._USE_CLASSPATH" value="no" />
+
+          <property name="env.=::" value="::\" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.60-b23" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.USERPROFILE" value="C:\Users\bharathi.ramapatnam" />
+
+          <property name="ant.library.dir" value="C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6\lib" />
+
+          <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_60" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="env.TMP" value="C:\Users\BHARAT~1.RAM\AppData\Local\Temp" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="sun.stdout.encoding" value="cp850" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\bharathi.ramapatnam" />
+
+          <property name="test.dest" value="C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject/build" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="env.M2_HOME" value="C:\Program Files\apache-maven\apache-maven-3.3.3-bin\apache-maven-3.3.3" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\apache-maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin;C:\Program Files\apache-maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files (x86)\Google\Chrome\Application;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\apache-maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin;C:\Program Files\apache-maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin;." />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="2" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="java.class.path" value="C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject\build;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\SaxonLiaison.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\apache-mime4j-0.6.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\bsh-1.3.0.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\cglib-nodep-2.1_3.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\commons-codec-1.10.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\commons-collections-3.2.1.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\commons-exec-1.3.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\commons-io-2.4.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\commons-lang3-3.4.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\commons-logging-1.1.3.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\cssparser-0.9.16.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\fluent-hc-4.2.1.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\gson-2.3.1.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\guava-18.0.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\hamcrest-core-1.3.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\hamcrest-library-1.3.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\htmlunit-2.17.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\htmlunit-core-js-2.17.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\httpclient-4.4.1.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\httpcore-4.4.1.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\httpmime-4.4.1.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\jcommander-1.29.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\jetty-io-9.2.11.v20150529.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\jetty-util-9.2.11.v20150529.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\jna-4.1.0.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\jna-platform-4.1.0.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\junit-4.12.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\log4j-1.2.17.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\mail-5.1.0.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\nekohtml-1.9.22.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\netty-3.5.7.Final.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\phantomjsdriver-1.2.1.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\poi-3.13-beta1-20150723.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\poi-examples-3.13-beta1-20150723.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\poi-excelant-3.13-beta1-20150723.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\poi-ooxml-3.13-beta1-20150723.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\poi-ooxml-schemas-3.13-beta1-20150723.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\poi-scratchpad-3.13-beta1-20150723.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\sac-1.3.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\saxon-8.7.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\selenium-java-2.47.1-srcs.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\selenium-java-2.47.1.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\serializer-2.7.2.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\testng-6.8.5.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\websocket-api-9.2.11.v20150529.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\websocket-client-9.2.11.v20150529.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\websocket-common-9.2.11.v20150529.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\xalan-2.7.2.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\xercesImpl-2.11.0.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\xml-apis-1.4.01.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\xmlbeans-2.6.0.jar;C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6\lib\ant-launcher.jar;C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6\lib\ant.jar;C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6\lib\ant-junit.jar;C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6\lib\ant-junit4.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.cyclos.testSuite1.firstSuiteRunner skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\bharathi.ramapatnam\Documents\rep\TEST-com.cyclos.testSuite1.firstSuiteRunner.xml crashfile=C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject\junitvmwatcher8762670146215377065.properties propsfile=C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject\junit3263437172644878995.properties" />
+
+          <property name="ws.jars" value="C:\Users\bharathi.ramapatnam\Documents\FrameworkJars" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="env.windir" value="C:\WINDOWS" />
+
+          <property name="env.LOGONSERVER" value="\\MicrosoftAccount" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="env.ANT_HOME" value="C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="java.io.tmpdir" value="C:\Users\BHARAT~1.RAM\AppData\Local\Temp\" />
+
+          <property name="env.PROCESSOR_REVISION" value="3a09" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="test.src" value="C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject/src" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="env.SystemRoot" value="C:\WINDOWS" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="env.ANT_CMD_LINE_ARGS" value=" run" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\bharathi.ramapatnam\AppData\Local" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="env.Path" value="C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\apache-maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin;C:\Program Files\apache-maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files (x86)\Google\Chrome\Application;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\apache-maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin;C:\Program Files\apache-maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin" />
+
+          <property name="basedir" value="C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="env.M2" value="C:\Program Files\apache-maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin" />
+
+          <property name="ant.core.lib" value="C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6\lib\ant.jar" />
+
+          <property name="env.USERNAME" value="bharathi.ramapatnam" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="sun.stderr.encoding" value="cp850" />
+
+          <property name="env.USERDOMAIN" value="FAMILY-PC" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="ant.file.Module_Junit_Ant" value="C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject\build.xml" />
+
+          <property name="env.=C:" value="C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject" />
+
+          <property name="ant.project.invoked-targets" value="run" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+      </properties>
+
+      <testcase classname="com.cyclos.testSuite1.InvalidLoginTests" name="invalidLogin1" time="21.252" />
+
+      <testcase classname="com.cyclos.testSuite1.InvalidLoginTests" name="invalidLogin" time="8.03" />
+
+      <testcase classname="com.cyclos.testSuite1.LoginTest" name="Login" time="0.0">
+          <skipped />
+
+      </testcase>
+
+      <testcase classname="com.cyclos.testSuite1.LoginPageLinkTest" name="doLinkTestLoginPage" time="0.003">
+          <skipped />
+
+      </testcase>
+
+      <testcase classname="com.cyclos.testSuite1.LoginPageLinkTest" name="mainLiks" time="3.22" />
+
+      <testcase classname="com.cyclos.testSuite1.RegisterTests" name="newRegister" time="33.268" />
+
+      <testcase classname="com.cyclos.testSuite1.RegisterTests" name="existingUserRegister" time="27.369" />
+
+      <system-out><![CDATA[The action couldn't be processed, as there were validation errors:
+Login name is required
+The given name / password are incorrect. Please, try again.
+17
+Register
+Sign in
+Home
+Business directory
+Marketplace
+P Information
+
+Click here to register
+Click here if you have forgotten your login name or password
+> More languages
+www.cyclos.org
+www.socialtrade.org
+Terms of use
+
+
+
+The action couldn't be processed, as there were validation errors:
+Visual validation is required
+Name must have at least 5 characters
+The action couldn't be processed, as there were validation errors:
+Visual validation is required
+]]></system-out>
+
+      <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
+2.44.0.0
+Listening on port 37906
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Family-PC" id="1" name="SecondSuiteRunner" package="com.cyclos.testSuite2" skipped="0" tests="0" time="0.328" timestamp="2015-11-25T11:20:23">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="FAMILY-PC" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="test.reportsDir" value="C:\Users\bharathi.ramapatnam\Documents\rep" />
+
+          <property name="os.name" value="Windows 8.1" />
+
+          <property name="env.FP_NO_HOST_CHECK" value="NO" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes" />
+
+          <property name="ws.home" value="C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject" />
+
+          <property name="env.COMPUTERNAME" value="FAMILY-PC" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6" />
+
+          <property name="java.runtime.version" value="1.8.0_60-b27" />
+
+          <property name="env.HOMEPATH" value="\Users\bharathi.ramapatnam" />
+
+          <property name="user.name" value="bharathi.ramapatnam" />
+
+          <property name="ant.file.type.Module_Junit_Ant" value="file" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin" />
+
+          <property name="ant.project.default-target" value="usage" />
+
+          <property name="ant.project.name" value="Module_Junit_Ant" />
+
+          <property name="java.version" value="1.8.0_60" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="env.TEMP" value="C:\Users\BHARAT~1.RAM\AppData\Local\Temp" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed" />
+
+          <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.8.0_60\bin\java.exe" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="env.VS110COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="GB" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_60\jre" />
+
+          <property name="env.PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\" />
+
+          <property name="env.APPDATA" value="C:\Users\bharathi.ramapatnam\AppData\Roaming" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="ant.file" value="C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject\build.xml" />
+
+          <property name="os.version" value="6.3" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="env._USE_CLASSPATH" value="no" />
+
+          <property name="env.=::" value="::\" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.60-b23" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.USERPROFILE" value="C:\Users\bharathi.ramapatnam" />
+
+          <property name="ant.library.dir" value="C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6\lib" />
+
+          <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_60" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="env.TMP" value="C:\Users\BHARAT~1.RAM\AppData\Local\Temp" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="sun.stdout.encoding" value="cp850" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\bharathi.ramapatnam" />
+
+          <property name="test.dest" value="C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject/build" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="env.M2_HOME" value="C:\Program Files\apache-maven\apache-maven-3.3.3-bin\apache-maven-3.3.3" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\apache-maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin;C:\Program Files\apache-maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files (x86)\Google\Chrome\Application;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\apache-maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin;C:\Program Files\apache-maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin;." />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="2" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="java.class.path" value="C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject\build;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\SaxonLiaison.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\apache-mime4j-0.6.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\bsh-1.3.0.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\cglib-nodep-2.1_3.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\commons-codec-1.10.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\commons-collections-3.2.1.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\commons-exec-1.3.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\commons-io-2.4.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\commons-lang3-3.4.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\commons-logging-1.1.3.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\cssparser-0.9.16.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\fluent-hc-4.2.1.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\gson-2.3.1.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\guava-18.0.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\hamcrest-core-1.3.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\hamcrest-library-1.3.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\htmlunit-2.17.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\htmlunit-core-js-2.17.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\httpclient-4.4.1.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\httpcore-4.4.1.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\httpmime-4.4.1.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\jcommander-1.29.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\jetty-io-9.2.11.v20150529.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\jetty-util-9.2.11.v20150529.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\jna-4.1.0.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\jna-platform-4.1.0.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\junit-4.12.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\log4j-1.2.17.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\mail-5.1.0.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\nekohtml-1.9.22.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\netty-3.5.7.Final.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\phantomjsdriver-1.2.1.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\poi-3.13-beta1-20150723.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\poi-examples-3.13-beta1-20150723.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\poi-excelant-3.13-beta1-20150723.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\poi-ooxml-3.13-beta1-20150723.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\poi-ooxml-schemas-3.13-beta1-20150723.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\poi-scratchpad-3.13-beta1-20150723.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\sac-1.3.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\saxon-8.7.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\selenium-java-2.47.1-srcs.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\selenium-java-2.47.1.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\serializer-2.7.2.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\testng-6.8.5.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\websocket-api-9.2.11.v20150529.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\websocket-client-9.2.11.v20150529.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\websocket-common-9.2.11.v20150529.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\xalan-2.7.2.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\xercesImpl-2.11.0.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\xml-apis-1.4.01.jar;C:\Users\bharathi.ramapatnam\Documents\FrameworkJars\xmlbeans-2.6.0.jar;C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6\lib\ant-launcher.jar;C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6\lib\ant.jar;C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6\lib\ant-junit.jar;C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6\lib\ant-junit4.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.cyclos.testSuite2.SecondSuiteRunner skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\bharathi.ramapatnam\Documents\rep\TEST-com.cyclos.testSuite2.SecondSuiteRunner.xml crashfile=C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject\junitvmwatcher6666833454944813771.properties propsfile=C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject\junit6913240109599583393.properties" />
+
+          <property name="ws.jars" value="C:\Users\bharathi.ramapatnam\Documents\FrameworkJars" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="env.windir" value="C:\WINDOWS" />
+
+          <property name="env.LOGONSERVER" value="\\MicrosoftAccount" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="env.ANT_HOME" value="C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="java.io.tmpdir" value="C:\Users\BHARAT~1.RAM\AppData\Local\Temp\" />
+
+          <property name="env.PROCESSOR_REVISION" value="3a09" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="test.src" value="C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject/src" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="env.SystemRoot" value="C:\WINDOWS" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="env.ANT_CMD_LINE_ARGS" value=" run" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\bharathi.ramapatnam\AppData\Local" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="env.Path" value="C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\apache-maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin;C:\Program Files\apache-maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files (x86)\Google\Chrome\Application;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\apache-maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin;C:\Program Files\apache-maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin" />
+
+          <property name="basedir" value="C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="env.M2" value="C:\Program Files\apache-maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin" />
+
+          <property name="ant.core.lib" value="C:\Users\bharathi.ramapatnam\Documents\Selenium Jars\apache-ant-1.9.6-bin\apache-ant-1.9.6\lib\ant.jar" />
+
+          <property name="env.USERNAME" value="bharathi.ramapatnam" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="sun.stderr.encoding" value="cp850" />
+
+          <property name="env.USERDOMAIN" value="FAMILY-PC" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="ant.file.Module_Junit_Ant" value="C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject\build.xml" />
+
+          <property name="env.=C:" value="C:\Users\bharathi.ramapatnam\Documents\PageFactory_Projects\JunitProject" />
+
+          <property name="ant.project.invoked-targets" value="run" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+      </properties>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
